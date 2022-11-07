@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { BeakerIcon } from '@heroicons/react/24/solid/esm/index';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -10,6 +11,9 @@ import Card from '../components/Card.astro';
 			To get started, open the directory <code>src/pages</code> in your project.<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
 		</p>
+
+		<p class="p-4"><BeakerIcon className="w-6 h-6"/></p>
+
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
